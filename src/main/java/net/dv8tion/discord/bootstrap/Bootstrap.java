@@ -10,12 +10,12 @@ import java.util.regex.Pattern;
 public class Bootstrap
 {
 
-    public static final String RECOMMENDED_BUILD_ROOT = "http://home.dv8tion.net:8080/job/Yui/Promoted%20Build/artifact/build/libs/";
-    public static final String BETA_BUILD_ROOT = "http://home.dv8tion.net:8080/job/Yui/lastCompletedBuild/artifact/build/libs/";
-    public static final String URL_REGEX = "\\<a href=\"Yui-withDependencies-[0-9]*\\.[0-9]*\\.[0-9]*_[0-9]*\\.jar\">(Yui-withDependencies-[0-9]*\\.[0-9]*\\.[0-9]*_[0-9]*\\.jar)\\<\\/a\\>";
+    public static final String RECOMMENDED_BUILD_ROOT = "http://ci.pc-logix.com/job/Yuri/Promoted%20Build/artifact/build/libs/";
+    public static final String BETA_BUILD_ROOT = "http://ci.pc-logix.com/job/Yuri//lastCompletedBuild/artifact/build/libs/";
+    public static final String URL_REGEX = "\\<a href=\"Yuri-withDependencies-[0-9]*\\.[0-9]*\\.[0-9]*_[0-9]*\\.jar\">(Yui-withDependencies-[0-9]*\\.[0-9]*\\.[0-9]*_[0-9]*\\.jar)\\<\\/a\\>";
 
-    public static final String VERSION = "1.1.0";
-    public static final File BOT_JAR_FILE = new File("./Yui.jar");
+    public static final String VERSION = "1.3.1";
+    public static final File BOT_JAR_FILE = new File("./Yuri.jar");
     public static final File BOT_JAR_FILE_OLD = new File("OLD_" + BOT_JAR_FILE.getName());
 
     // --  Yui specific exit codes --
