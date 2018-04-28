@@ -11,7 +11,7 @@ public class Bootstrap
 {
 
     public static final String RECOMMENDED_BUILD_ROOT = "http://ci.pc-logix.com/job/Yuri/Promoted%20Build/artifact/build/libs/";
-    public static final String BETA_BUILD_ROOT = "http://ci.pc-logix.com/job/Yuri//lastCompletedBuild/artifact/build/libs/";
+    public static final String BETA_BUILD_ROOT = "http://ci.pc-logix.com/job/Yuri/lastCompletedBuild/artifact/build/libs/";
     public static final String URL_REGEX = "\\<a href=\"Yuri-withDependencies-[0-9]*\\.[0-9]*\\.[0-9]*_[0-9]*\\.jar\">(Yui-withDependencies-[0-9]*\\.[0-9]*\\.[0-9]*_[0-9]*\\.jar)\\<\\/a\\>";
 
     public static final String VERSION = "1.3.1";
